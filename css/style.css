@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700|Roboto:400,900');
+/* CSS Document */
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	margin: 0px 0px 0px;
+}
+
+/* carousel */
+.carousel-caption{
+	padding-bottom: 300px;
+}
+.carousel-caption h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100px;
+}
+
+.carousel-caption p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+
+/* Cseccion promociones*/
+#sec-promo{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+#sec-promo h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 70px;
+}
+#sec-promo p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+#sec-promo img{
+	
+	width: 200px;
+}
+#resaltar-texto{
+	font-weight: bold;
+	color: #a3bd31;
+}
+
+#sec-promo h3{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+/* sección paralax */
+#sec-paralax{
+	background-image: url(../img/paralax.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+/* sección iconos */
+#sec-redes{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	
+}
+#sec-redes img{
+	width: 100px;
+}
